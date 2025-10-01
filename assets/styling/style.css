@@ -1,0 +1,22 @@
+body {
+background-color: #004CA6;
+}
+
+h1 {
+    color: #F7FF0F;
+    padding-left: 10px;
+    padding-top: 20px;
+    font-size: 350%;
+}
+
+.display-5 {
+    color: #fafafa;
+}
+
+p {
+    color: #fafafa;
+}
+
+.card-text {
+    color: black;
+}
