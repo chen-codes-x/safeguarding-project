@@ -5,11 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>SnapSafe — Learning</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/styling/style.css">
+    <link rel="stylesheet" href="assets/styling/index.css">
+    <link rel="stylesheet" type="text/css" href="assets/styling/index.css">
+    <link rel="icon" href="assets\images\32x32safe-02.svg">
   </head>
+
+
   <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">SnapSafe Learning</a>
+    <a class="navbar-brand" href="index.html">SnapSafe Learning</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -19,7 +25,7 @@
           <a class="nav-link" aria-current="page" href="index.html">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="about.html">About</a>
+          <a class="nav-link" href="index.html#about">About</a>
         </li>
         <li class="nav-item">
           <a class="nav-link active" href="test.html">Take the Test</a>
@@ -30,15 +36,72 @@
 </nav>
     </header>
 
-  <body>
-    <h1>Learning<br>made <em>simple.</em></h1>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+ <header id="hero" class="container">
+        <!-- section with hero image -->
+        <section class="row">
+            <!-- text-center class used to centre all text inside column -->
+            <div class="col-12 text-center">
+                <h1 id="test-title" class="display-4 my-4">SnapSafe Learning</h1>
+                <!-- mb-5 gives extra margin spacing under subheading -->
+                <h2 id="sub" class="display-5">The Safeguarding Test</h2>
+            
+                <!-- mb-5 gives extra margin spacing under lead text -->
+                <p id="test-p2" class="lead mb-5">Let’s snap into safeguarding!</p>
+            </div>
+        </section>
+ </header>
+
+
+
+ <body id="test-body">
+    <!-- main content -->
+    <main>
+
+              <section class="row">
+            <!-- text-center class used to centre all text inside column -->
+            <div class="col-12 text-center">
+      <form id="details">
+        <fieldset>
+          <legend>
+           Please enter your details
+          </legend>
+          <label>
+            Full Name:
+            <input type="text"/>
+            </label>
+            <label>
+              
+              Email:
+              <input type="email"/>
+            </label>
+           
+              Institution:
+              <input type="text"/>
+            </label>
+          
+        </fieldset>
+      </form>
+      <br> 
+       <p id ="test-p">
+                     Instructions:
+                     Choose the correct answer for each question. Aim for <strong>at least 85%</strong> to demonstrate your safeguarding knowledge.
+                     <br>This test should take you approximately 15-20 minutes.
+                </p>
+    </section>
+
+
+
+
+         
+     <footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+     </footer>
   </body>
-   <main>Main Content</main>
+ 
 
-    <footer>Footer</footer>
+   
 </html>
-
+        
     
 
    

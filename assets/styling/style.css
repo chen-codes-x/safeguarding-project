@@ -2,37 +2,81 @@ body {
 background-color: white;
 }
 
-h1 {
+#test-body {
+    background-color: rgb(241 97 0);
+    color:white;
+}
+
+#test-title {
+    color: white;
+}
+#test-h2 {
+    color: white;
+}
+#test-p {
+    color: white;
+}
+#test-p2 {
+    color: white;
+}
+
+h2 {
     font: helvetica-neue, sans-serif;
     font-weight: 200;
     color: black;
     font-size: 300%;
+   
 }
-h2 {
-    color: #004CA7;
-    padding-top: 20px;
+#sub {
+    color: #F8FF0E;
+    font-weight: 600;
+
     font-size: 200%;
+    
 }
 
 .display-5 {
-    color: black;
+    color: white;
 }
+
 
 p {
     color: black;
+    padding-top:0%;
+   
+    alignment-baseline: central;
 }
+
+
 
 .card-text {
     color: black;
 }
 
-.container {
-    margin-top: 20px;
-    margin-bottom: 20px;
-
+#about-title {
+    color: black;
 }
 
-img {
-    width: 50%;
-    height:50%;
+.custom-hero {
+    background-color: rgb(241 97 0) !important;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 5%;
+ 
 }
+
+#hero-img {
+    padding-left: 10%;
+    width: 80%;
+    height: 80%;
+    
+};
+ 
+
+
+
+
+
+
+ 
+    
