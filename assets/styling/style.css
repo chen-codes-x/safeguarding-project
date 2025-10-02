@@ -7,6 +7,11 @@ background-color: white;
     color:white;
 }
 
+#submit-body {
+    background-color: rgb(241 97 0);
+    color:white;
+}
+
 #test-title {
     color: white;
 }
@@ -18,6 +23,16 @@ background-color: white;
 }
 #test-p2 {
     color: white;
+}
+
+#body-p2 {
+    color: white;
+
+}
+
+#body-p3 {
+    color: white;
+
 }
 
 h2 {
