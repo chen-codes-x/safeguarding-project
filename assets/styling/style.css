@@ -85,7 +85,54 @@ p {
     width: 80%;
     height: 80%;
     
-};
+}
+
+.bullets {
+    text-align: left;
+    align-items: center;
+}
+
+/*footer*/
+
+footer {
+    align-items: center;
+    justify-content: center;
+    padding-top:5%;
+}
+
+.container1 {
+    width:100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding: 1rem;
+}
+
+.row1 {
+    display:flex;
+    flex-wrap:wrap;
+    
+
+}
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
+}
+
+#sub1 {
+    font-weight: 600;
+    color:black;
+
+    font-size: 200%;
+
+}
  
 
 
