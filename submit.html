@@ -1,59 +1,103 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>SnapSafe — Learning</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/styling/style.css">
-    <link rel="stylesheet" href="assets/styling/index.css">
-    <link rel="stylesheet" type="text/css" href="assets/styling/index.css">
-    <link rel="icon" href="assets\images\32x32safe-02.svg">
-  </head>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <title>SnapSafe — Test Submitted</title>
 
-  <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
+  <!-- Bootstrap -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+    crossorigin="anonymous"
+  >
+
+  <!-- Custom styles -->
+  <link rel="stylesheet" href="assets/styling/style.css">
+  <link rel="stylesheet" href="assets/styling/index.css">
+
+  <!-- Favicon -->
+  <link rel="icon" href="assets/images/32x32safe-02.svg">
+</head>
+
+<body id="submit-body">
+
+  
+  <!-- NAV -->
+<nav class="navbar navbar-expand-lg">
+  <div class="container">
     <a class="navbar-brand" href="index.html">SnapSafe Learning</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
       <span class="navbar-toggler-icon"></span>
     </button>
+
     <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
+      <ul class="navbar-nav ms-auto">
         <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="index.html">Home</a>
+          <a class="nav-link active" href="index.html">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="index.html#about">About</a>
+          <a class="nav-link" href="#about">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="test.html">Take the Test</a>
+          <a class="nav-link" href="test.html">Take the Test</a>
         </li>
       </ul>
     </div>
   </div>
 </nav>
-    </header>
 
- <header id="hero" class="container">
-        <!-- section with hero image -->
-        <section class="row">
-            <!-- text-center class used to centre all text inside column -->
-            <div class="col-12 text-center">
-                <h1 id="test-title" class="display-4 my-4">SnapSafe Learning</h1>
-                <!-- mb-5 gives extra margin spacing under subheading -->
-                <h2 id="sub" class="display-5">The Safeguarding Test</h2>
-            
-                <!-- mb-5 gives extra margin spacing under lead text -->
-                <p id="body-p2" class="lead mb-5">Your test has been submitted!<p>
-                    <br><p id="body-p3" class="lead mb-5">Snap! Your results are on the way to your inbox and will also be securely sent to your institution for review.
-                </p>
-            </div>
-        </section>
- </header>
-<body id="submit-body">
+  
+
+  <!-- Main Content -->
+  <main>
+
+    <!-- Confirmation Hero -->
+    <section id="hero" class="container my-5">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+
+          <h1 id="test-title" class="display-4 mb-3">
+            SnapSafe Learning
+          </h1>
+
+          <h2 id="sub" class="display-6 mb-4">
+            The Safeguarding Test
+          </h2>
+
+          <p id="body-p2" class="lead fw-semibold mb-3">
+            Your test has been submitted!
+          </p>
+
+          <p id="body-p3" class="lead text-muted">
+            Snap! Your results are on the way to your inbox and will also be
+            securely sent to your institution for review.
+          </p>
+
+          <div class="mt-4">
+            <a href="index.html" class="btn btn-outline-success me-2">
+              Back to Home
+            </a>
+            <a href="index.html#about" class="btn btn-success">
+              Learn More About Safeguarding
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Bootstrap JS -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"
+  ></script>
 
 </body>
-
 </html>

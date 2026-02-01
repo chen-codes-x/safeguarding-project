@@ -1,28 +1,46 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>SnapSafe — Learning</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/styling/style.css">
-    <link rel="stylesheet" href="assets/styling/index.css">
-    <link rel="stylesheet" type="text/css" href="assets/styling/index.css">
-    <link rel="icon" href="assets\images\32x32safe-02.svg">
-  </head>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!--header-->
-  <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
+  <title>SnapSafe — Learning</title>
+
+  <!-- Bootstrap -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+    crossorigin="anonymous"
+  >
+
+  <!-- Custom styles -->
+  <link rel="stylesheet" href="assets/styling/style.css">
+  <link rel="stylesheet" href="assets/styling/index.css">
+
+  <!-- Favicon -->
+  <link rel="icon" href="assets/images/32x32safe-02.svg">
+</head>
+
+<body>
+
+
+  <!-- Main Content -->
+  <main>
+
+   <!-- NAV -->
+<nav class="navbar navbar-expand-lg">
+  <div class="container">
     <a class="navbar-brand" href="index.html">SnapSafe Learning</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
       <span class="navbar-toggler-icon"></span>
     </button>
+
     <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
+      <ul class="navbar-nav ms-auto">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          <a class="nav-link active" href="index.html">Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#about">About</a>
@@ -35,75 +53,81 @@
   </div>
 </nav>
 
-</header>
-
- <body>
-
-      <style>
-  .container {
-  display: flex;
-  align-items: center;
-  justify-content: center
-}
-
-img {
-  max-width: 100%;
-  max-height:100%;
-}
-
-.text {
-  font-size: 20px;
-  padding-left: 20px;
-}
-  </style>
-
-
-  <main>
-
-        <div class="custom-hero">
+<!-- HERO -->
+<section class="custom-hero">
   <div class="container">
-      <!-- hero section -->
-      <div class="row align-items-center no-gutters">
-          <div class="col-xl-5 col-lg-6 col-md-12">
-              <div class="py-5 py-lg-0">
-               <h1 class="display-5">SnapSafe Learning</h1>
-                    <h2 id="sub" class="display-5">Learning made <em>simple.</em>
-                    <br>Safeguarding done <em>right.</em></h2>
-                  </h1>
-                  <p class="text-white-50 mb-4 lead">
-                      Partnered with the NSPCC, the UK's leading child protection charity, to provide a standard of excellence in safeguarding training.
-                  </p>
-                  <a href="test.html" class="btn btn-success">Take test</a>
-                  
+    <div class="row align-items-center">
 
-    <!--about section-->
-              </div>
-          </div>
-          <div class=" col-xl-7 col-lg-6 col-md-12 text-lg-right text-center">
-              <img src="assets/images/icon-w-thumbs-up-01.png" alt="" class="img-fluid" id="hero-img">
-          </div>
+      <div class="col-lg-6">
+        <h1 class="display-5">SnapSafe Learning</h1>
+        <h2 id="sub">
+          Learning made <em>simple.</em><br>
+          Safeguarding done <em>right.</em>
+        </h2>
+
+        <p class="lead mt-3">
+          Partnered with the NSPCC, the UK's leading child protection charity,
+          delivering trusted safeguarding training for future teachers.
+        </p>
+
+        <a href="test.html" class="btn btn-success mt-4">Take the test</a>
       </div>
+
+      <div class="col-lg-6 text-center">
+        <img src="assets/images/icon-w-thumbs-up-01.png" alt="SnapSafe illustration" class="img-fluid hero-img">
+      </div>
+
+    </div>
   </div>
- </div>
- <footer id="about" class="container">
-        <div class="row justify-content-center">
-            <div class="col-12 text-center my-4">
-                <h2 id="about-title" class="about-section" class="display-5">What is Safeguarding?</h2>
-                <p class="mt-4">Safeguarding means protecting children’s health, wellbeing, and human rights. It ensures that every child grows up safe, secure, and supported. For teachers, safeguarding is not just about spotting harm — it’s about creating a safe environment in school where children can learn and thrive.
+</section>
+    <!-- About / Safeguarding Section -->
+    <section id="about" class="container my-5">
+      <div class="row justify-content-center">
+        <div class="col-lg-10 text-center">
 
-                    <ul class="bullets">
-<u>Safeguarding in schools covers:</u>
+          <h2 class="display-5 mb-4">
+            What is Safeguarding?
+          </h2>
 
-<li>Protecting children from abuse, neglect, and harm.</li>
+          <p class="mb-4">
+            Safeguarding means protecting children’s health, wellbeing, and human rights.
+            It ensures that every child grows up safe, secure, and supported. For teachers,
+            safeguarding is not just about spotting harm — it’s about creating a safe
+            environment in school where children can learn and thrive.
+          </p>
 
-<li>Providing safe spaces to learn and play.</li>
+          <div class="text-start mx-auto" style="max-width: 600px;">
+            <p class="fw-semibold mb-2">
+              Safeguarding in schools covers:
+            </p>
 
-<li>Supporting children’s mental and physical health.</li>
+            <ul class="bullets">
+              <li>Protecting children from abuse, neglect, and harm.</li>
+              <li>Providing safe spaces to learn and play.</li>
+              <li>Supporting children’s mental and physical health.</li>
+              <li>Taking action quickly if concerns arise.</li>
+            </ul>
+          </div>
 
-<li>Taking action quickly if concerns arise.</li>
-                    </ul>
+          <p class="mt-4">
+            Every adult working with children has a duty to safeguard.
+            This means noticing early signs that something might be wrong,
+            listening carefully when a child speaks up, and reporting concerns
+            immediately to the right person.
+          </p>
 
+        </div>
+      </div>
+    </section>
 
-Every adult working with children has a duty to safeguard. This means noticing early signs that something might be wrong, listening carefully when a child speaks up, and reporting concerns immediately to the right person.</p>
+  </main>
 
- 
+  <!-- Bootstrap JS -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-QF1kM7kK1N6E2qz+YpX6vR9l6n0n3DkRk9sN6n0U6n0U6n0U6n0U6n0U"
+    crossorigin="anonymous"
+  ></script>
+
+</body>
+</html>

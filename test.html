@@ -1,28 +1,37 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>SnapSafe — Learning</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/styling/style.css">
-    <link rel="stylesheet" href="assets/styling/index.css">
-    <link rel="stylesheet" type="text/css" href="assets/styling/index.css">
-    <link rel="icon" href="assets\images\32x32safe-02.svg">
-  </head>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SnapSafe — Safeguarding Test</title>
 
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
-  <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="assets/styling/style.css">
+
+  <link rel="icon" href="assets/images/32x32safe-02.svg">
+</head>
+
+<body id="test-body">
+
+<!-- NAV -->
+<nav class="navbar navbar-expand-lg">
+  <div class="container">
     <a class="navbar-brand" href="index.html">SnapSafe Learning</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
       <span class="navbar-toggler-icon"></span>
     </button>
+
     <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
+      <ul class="navbar-nav ms-auto">
         <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="index.html">Home</a>
+          <a class="nav-link" href="index.html">Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="index.html#about">About</a>
@@ -34,305 +43,228 @@
     </div>
   </div>
 </nav>
-    </header>
-
- <header id="hero" class="container">
-        <!-- section with hero image -->
-        <section class="row">
-            <!-- text-center class used to centre all text inside column -->
-            <div class="col-12 text-center">
-                <h1 id="test-title" class="display-4 my-4">SnapSafe Learning</h1>
-                <!-- mb-5 gives extra margin spacing under subheading -->
-                <h2 id="sub" class="display-5">The Safeguarding Test</h2>
-            
-                <!-- mb-5 gives extra margin spacing under lead text -->
-                <p id="test-p2" class="lead mb-5">Let’s snap into safety gear!</p>
-            </div>
-        </section>
- </header>
 
 
+    <!-- HERO -->
+<section class="custom-hero">
+  <div class="container">
+    <div class="row align-items-center">
 
- <body id="test-body">
-    <!-- main content -->
-    <main>
+      <div class="col-lg-6">
+        <h1 class="display-5">SnapSafe Learning</h1>
+        <h2 id="sub">
+          Learning made <em>simple.</em><br>
+          Safeguarding done <em>right.</em>
+        </h2>
 
-      <!--fill in details section-->
-              <section class="row">
-            <!-- text-center class used to centre all text inside column -->
-            <div class="col-12 text-center">
-      <form id="details">
-        <fieldset>
-          <legend>
-           Please enter your details
-          </legend>
-          <label>
-            Full Name:
-            <input type="text"/>
-            </label>
-            <label>
-              
-              Email:
-              <input type="email"/>
-            </label>
-           
-              Institution:
-              <input type="text"/>
-            </label>
-          
-        </fieldset>
-      </form>
-      <br> 
+        <p class="lead mt-3">
+          Partnered with the NSPCC, the UK's leading child protection charity,
+          delivering trusted safeguarding training for future teachers.
+        </p>
 
-      <!--instructions-->
-       <p id ="test-p">
-                     Instructions:
-                     Choose the correct answer for each question. Aim for <strong>at least 85%</strong> to demonstrate your safeguarding knowledge.
-                     <br>This test should take you approximately 15-20 minutes.
-                </p><br>
-    </section>
+        <a href="index.html" class="btn btn-success mt-4">Home</a>
+      </div>
 
-    <!--all questions-->
+     
+      <div class="col-lg-6 text-center">
+        <img src="assets/images/icon-w-thumbs-up-01.png" alt="SnapSafe illustration" class="img-fluid hero-img">
+      </div>
+
+    </div>
+  </div>
+</section>
+
+  </div>
+</section>
+
+<!-- TITLING -->
+<section class="py-5">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8 text-center">
+
+        <h1 class="display-5">
+          The SnapSafe Safeguarding Test
+        </h1>
+
+        <p class="lead mt-3">
+          A short assessment to refresh your safeguarding knowledge and
+          prepare you for real classroom scenarios.
+        </p>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- MAIN CONTENT -->
+<main class="container py-5">
+
+  <!-- DETAILS -->
+  <section class="mb-5">
+    <h2 class="mb-3">Your details</h2>
+
+    <form class="row g-3">
+      <div class="col-md-4">
+        <label class="form-label">Full name</label>
+        <input type="text" class="form-control" required>
+      </div>
+
+      <div class="col-md-4">
+        <label class="form-label">Email address</label>
+        <input type="email" class="form-control" required>
+      </div>
+
+      <div class="col-md-4">
+        <label class="form-label">Institution</label>
+        <input type="text" class="form-control">
+      </div>
+    </form>
+  </section>
+
+  <!-- INSTRUCTIONS -->
+  <section class="mb-5">
+    <div class="alert alert-warning">
+      <strong>Instructions:</strong><br>
+      Choose the correct answer for each question. Aim for at least
+      <strong>85%</strong> to demonstrate your safeguarding knowledge.
+      This test should take around <strong>15–20 minutes</strong>.
+    </div>
+  </section>
+
+  <!-- QUESTIONS -->
   <form action="submit.html" method="post">
-  <ol>
-    <!--question 1-->
-  <li><p id="test-p">Which of these could be a sign a child might need safeguarding?</p>
 
-  <input type="radio" id="a" name="need" value="a">
-  <label for="a">a) Smiling and playing happily all day</label><br>
-  <input type="radio" id="a" name="need" value="a">
-
-  <label for="b">b) Sudden withdrawal or frequent sadness</label><br>
-  <input type="radio" id="b" name="need" value="b">
-
-  <label for="c">c) Asking lots of questions in class</label></li>
-  <input type="radio" id="c" name="need" value="c">
-
-   <label for="d">d) Completing homework on time</label></li>
-   
- 
-
-     <!--question 2-->
-     <br><br><br>
-   <li><p id="test-p">If a child discloses something worrying to you, your first action should be:</p>
-
-  <input type="radio" id="a" name="disclose" value="a">
-  <label for="a">a) Promise to keep it secret</label><br>
-  <input type="radio" id="a" name="disclose" value="a">
-
-  <label for="b">b) Ignore it, they might be joking</label><br>
-  <input type="radio" id="b" name="disclose" value="b">
-
-  <label for="c">c) Listen calmly and reassure them</label></li>
-  <input type="radio" id="c" name="disclose" value="c">
-
-   <label for="d">d) Ask them for more details immediately</label></li>
-
-
-     <!--question 3-->
-     <br><br><br>
-   <li><p id="test-p">Who should you report safeguarding concerns to first?</p>
-
-  <input type="radio" id="a" name="report" value="a">
-  <label for="a">a) Your best friend</label><br>
-  <input type="radio" id="a" name="report" value="a">
-
-  <label for="b">b) The designated safeguarding lead (DSL)</label><br>
-  <input type="radio" id="b" name="report" value="b">
-
-  <label for="c">c) The child’s parent immediately</label></li>
-  <input type="radio" id="c" name="report" value="c">
-
-   <label for="d">d) A classmate</label></li>
-
-
-   <!--question 4-->
-   <br><br><br>
-   <li><p id="test-p">Safeguarding applies to which age group?</p>
-
-  <input type="radio" id="a" name="safeguarding-ages" value="a">
-  <label for="a">a) Only teenagers</label><br>
-  <input type="radio" id="a" name="safeguarding-ages" value="a">
-
-  <label for="b">b) Only babies</label><br>
-  <input type="radio" id="b" name="safeguarding-ages" value="b">
-
-  <label for="c">c) Children of all ages, including 4–7</label></li>
-  <input type="radio" id="c" name="safeguarding-ages" value="c">
-
-   <label for="d">d) Only adults</label></li>
-
-
-    <!--question 5-->
-   <br><br><br>
-   <li><p id="test-p">Which is an example of physical signs of abuse?</p>
-
-  <input type="radio" id="a" name="signs" value="a">
-  <label for="a">a) Unexplained bruises or burns</label><br>
-  <input type="radio" id="a" name="signs" value="a">
-
-  <label for="b">b) Always eating lunch</label><br>
-  <input type="radio" id="b" name="signs" value="b">
-
-  <label for="c">c) Sitting quietly in class</label></li>
-  <input type="radio" id="c" name="signs" value="c">
-
-   <label for="d">d) Reading a book</label></li>
-
-
-     <!--question 6-->
-   <br><br><br>
-   <li><p id="test-p">A child seems scared to go home and shares hints something is wrong. What is your best response?</p>
-
-  <input type="radio" id="a" name="response" value="a">
-  <label for="a">a) Tell them “don’t worry” and move on</label><br>
-  <input type="radio" id="a" name="response" value="a">
-
-  <label for="b">b) Listen, reassure, and report to DSL</label><br>
-  <input type="radio" id="b" name="response" value="b">
-
-  <label for="c">c) Ask them to write a letter home</label></li>
-  <input type="radio" id="c" name="response" value="c">
-
-   <label for="d">d) Confront the parent yourself</label></li>
-
-    <!--question 7-->
-   <br><br><br>
-   <li><p id="test-p">You notice a child has a sudden change in behaviour. You should:</p>
-
-  <input type="radio" id="a" name="change" value="a">
-  <label for="a">a) Snap a photo and send to social media</label><br>
-  <input type="radio" id="a" name="change" value="a">
-
-  <label for="b">b) Record your observations and report to DSL</label><br>
-  <input type="radio" id="b" name="change" value="b">
-
-  <label for="c">c) Ignore it, they’ll grow out of it</label></li>
-  <input type="radio" id="c" name="change" value="c">
-
-   <label for="d">d) Ask other children what’s happening</label></li>
-
-
-     <!--question 8-->
-   <br><br><br>
-   <li><p id="test-p">Why is it important to follow safeguarding procedures every time?</p>
-
-  <input type="radio" id="a" name="follow" value="a">
-  <label for="a">a) To protect yourself, the child, and the school</label><br>
-  <input type="radio" id="a" name="follow" value="a">
-
-  <label for="b">b) To keep paperwork busy</label><br>
-  <input type="radio" id="b" name="follow" value="b">
-
-  <label for="c">c) To be seen as strict</label></li>
-  <input type="radio" id="c" name="follow" value="c">
-
-   <label for="d">d) Because it makes the school look good</label></li>
-
-
-     <!--question 9-->
-   <br><br><br>
-   <li><p id="test-p">Which of these is not allowed when a child discloses an incident?</p>
-
-  <input type="radio" id="a" name="incident" value="a">
-  <label for="a">a) Listen calmly</label><br>
-  <input type="radio" id="a" name="incident" value="a">
-
-  <label for="b">b) Promise secrecy</label><br>
-  <input type="radio" id="b" name="incident" value="b">
-
-  <label for="c">c) Report to DSL</label></li>
-  <input type="radio" id="c" name="incident" value="c">
-
-   <label for="d">d) Reassure them</label></li>
-
-
-   <!--question 10-->
-   <br><br><br>
-   <li><p id="test-p">What should you do if you don’t know how to handle a safeguarding concern?</p>
-
-  <input type="radio" id="a" name="handle" value="a">
-  <label for="a">a) Make a logical guess what to do and hope for the best</label><br>
-  <input type="radio" id="a" name="handle" value="a">
-
-  <label for="b">b) Snap a selfie</label><br>
-  <input type="radio" id="b" name="handle" value="b">
-
-  <label for="c">c) Immediately seek guidance from DSL or school policy</label></li>
-  <input type="radio" id="c" name="handle" value="c">
-
-   <label for="d">d) Just wait until the child forgets</label></li>
-
-
-    <!--question 11-->
-   <br><br><br>
-   <li><p id="test-p">What does 'Confidentiality' in safeguarding mean?
-    <br>(Write a sentence)</p>
-  <textarea id="Confidentiality" rows="2" cols="87" name="Confidentiality"></textarea>
-   </li>
-
-
-    <!--question 12-->
-   <br><br><br>
-   <li><p id="test-p">In your own words, why is it important for teachers to follow safeguarding procedures consistently?
-   <em><br>(Answer in 2–3 sentences)</em></p>
-  <textarea id="important" rows="4" cols="87" name="important"></textarea>
-   </li>
-
-
-     <!--question 13-->
-   <br><br><br>
-   <li><p id="test-p">Imagine a child in your class hints that they don’t feel safe at home. What would be the correct steps to take?
-   <em><br>(Answer in 2–3 sentences)</em></p>
-  <textarea id="consistent" rows="4" cols="87" name="consistent"></textarea>
-   </li>
-
-
-     <!--question 14-->
-   <br><br><br>
-   <li><p id="test-p">Who is SnapSafe Learning partnered with?
-   <em><br>(Select from the dropdown menu)</em></p>
-   <select>
-  <option selected disabled>Choose an answer</option>
-  <option value="option1">TES</option>
-  <option value="option2">BBC Education</option>
-  <option value="option3">Ofsted</option>
-  <option value="option4">NSPCC</option>
-  <option value="option5">GOV UK</option>
-</select>
-   </li>
-   <br>
-
-   <!-- checkboxes-->
-
-    <form action="/action_page.php">
-  <input type="checkbox" id="opt-in" name="opt-in" value="opt-in">
-  <label for="opt-in">I’d like to receive SnapSafe’s updates, tips, and news straight to my inbox.</label><br>
-
-   <form action="/action_page.php">
-  <input type="checkbox" id="agree" name="agree" value="agree" required>
-  <label for="agree">I agree for my personal details and test information to be securely sent to my institution.</label><br><br>
-
-<button type="submit" method="get" action="submit.html">
-  <strong>Submit Test</strong>
-</button>
-
-<input type="reset" value="Reset">
-  </ol>
-</form>
-
-
-         
-     <footer>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-     </footer>
-  </body>
- 
-
-   
+    <ol class="question-list">
+
+      <!-- Q1 -->
+      <li>
+        <p>Which of these could be a sign a child might need safeguarding?</p>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q1">
+          <label class="form-check-label">Smiling and playing happily all day</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q1">
+          <label class="form-check-label">Sudden withdrawal or frequent sadness</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q1">
+          <label class="form-check-label">Completing homework on time</label>
+        </div>
+      </li>
+      <br>
+
+      <!-- Q2 -->
+      <li>
+        <p>If a child discloses something worrying to you, your first action should be:</p>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q2">
+          <label class="form-check-label">Promise to keep it secret</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q2">
+          <label class="form-check-label">Listen calmly and reassure them</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q2">
+          <label class="form-check-label">Ignore it, they may be joking</label>
+        </div>
+      </li>
+      <br>
+
+      <!-- Q3 -->
+      <li>
+        <p>Who should you report safeguarding concerns to first?</p>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q3">
+          <label class="form-check-label">The designated safeguarding lead (DSL)</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q3">
+          <label class="form-check-label">A friend or colleague</label>
+        </div>
+      </li>
+      <br>
+
+      <!-- Q4 -->
+      <li>
+        <p>Safeguarding applies to which age group?</p>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q4">
+          <label class="form-check-label">Children of all ages, including 4–7</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q4">
+          <label class="form-check-label">Only teenagers</label>
+        </div>
+      </li>
+      <br>
+
+      <!-- WRITTEN -->
+      <li>
+        <p>What does confidentiality mean in safeguarding? <em>(1–2 sentences)</em></p>
+        <textarea class="form-control" rows="3"></textarea>
+      </li>
+
+      <li>
+        <p>Imagine a child hints they don’t feel safe at home. What steps would you take?</p>
+        <textarea class="form-control" rows="4"></textarea>
+      </li>
+      <br>
+
+      <!-- DROPDOWN -->
+      <li>
+        <p>Who is SnapSafe Learning partnered with?</p>
+        <select class="form-select">
+          <option selected disabled>Choose an answer</option>
+          <option>TES</option>
+          <option>BBC Education</option>
+          <option>Ofsted</option>
+          <option>NSPCC</option>
+          <option>GOV UK</option>
+        </select>
+      </li>
+
+    </ol>
+    <br><br>
+
+    <!-- CONSENT -->
+    <div class="mt-5">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox">
+        <label class="form-check-label">
+          I’d like to receive SnapSafe updates and safeguarding tips.
+        </label>
+      </div>
+
+      <div class="form-check mt-2">
+        <input class="form-check-input" type="checkbox" required>
+        <label class="form-check-label">
+          I agree for my details and results to be securely shared with my institution.
+        </label>
+      </div>
+    </div>
+
+    <!-- ACTIONS -->
+    <div class="mt-4 d-flex gap-3">
+      <button type="submit" class="btn btn-success">Submit test</button>
+      <button type="reset" class="btn btn-outline-secondary">Reset</button>
+    </div>
+
+  </form>
+
+</main>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container text-center">
+    <p>© 2025 SnapSafe Learning — Learning made <em>simple.</em></p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
 </html>
-        
-    
-
-   
-

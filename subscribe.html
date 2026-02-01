@@ -1,65 +1,112 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>SnapSafe — Learning</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/styling/style.css">
-    <link rel="stylesheet" href="assets/styling/index.css">
-    <link rel="stylesheet" type="text/css" href="assets/styling/index.css">
-    <link rel="icon" href="assets\images\32x32safe-02.svg">
-  </head>
-  <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>SnapSafe — Subscription Confirmed</title>
+
+  <!-- Bootstrap -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+    crossorigin="anonymous"
+  >
+
+  <!-- Custom styles -->
+  <link rel="stylesheet" href="assets/styling/style.css">
+  <link rel="stylesheet" href="assets/styling/index.css">
+
+  <!-- Favicon -->
+  <link rel="icon" href="assets/images/32x32safe-02.svg">
+</head>
+
+<body>
+
+  <!-- NAV -->
+<nav class="navbar navbar-expand-lg">
+  <div class="container">
     <a class="navbar-brand" href="index.html">SnapSafe Learning</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
       <span class="navbar-toggler-icon"></span>
     </button>
+
     <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
+      <ul class="navbar-nav ms-auto">
         <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="index.html">Home</a>
+          <a class="nav-link active" href="index.html">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="index.html#about">About</a>
+          <a class="nav-link" href="#about">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="test.html">Take the Test</a>
+          <a class="nav-link" href="test.html">Take the Test</a>
         </li>
       </ul>
     </div>
   </div>
 </nav>
-    </header>
 
-    <body>
-     <main>
+  <!-- Main Content -->
+  <main>
 
-        <div class="custom-hero">
-  <div class="container">
-      <!-- hero section -->
-      <div class="row align-items-center no-gutters">
+    <!-- Subscription Confirmation Hero -->
+    <section class="custom-hero">
+      <div class="container">
+        <div class="row align-items-center">
+
           <div class="col-xl-5 col-lg-6 col-md-12">
-              <div class="py-5 py-lg-0">
-               <h1 class="display-5">Thanks, you're subscribed!</h1>
-                    <h2 id="sub" class="display-5">You will recieve our
-                    <br>latest updates</h2>
-                  </h1>
-                  <p class="text-white-50 mb-4 lead">
-                      We will never share your email with anyone.<br>
-                      You can opt-out at any time.
-                  </p>
-                  
-                  
+            <div class="py-5">
+
+              <h1 class="display-5 text-white mb-3">
+                Thanks — you’re subscribed!
+              </h1>
+
+              <h2 id="sub" class="display-6 text-white mb-4">
+                You’ll receive our latest<br>
+                safeguarding updates
+              </h2>
+
+              <p class="text-white-50 lead">
+                We’ll never share your email with anyone.<br>
+                You can unsubscribe at any time.
+              </p>
+
+              <div class="mt-4">
+                <a href="index.html" class="btn btn-outline-light me-2">
+                  Back to Home
+                </a>
+                <a href="test.html" class="btn btn-success">
+                  Take the Safeguarding Test
+                </a>
               </div>
+
+            </div>
           </div>
-          <div class=" col-xl-7 col-lg-6 col-md-12 text-lg-right text-center">
-              <img src="assets/images/icon-w-thumbs-up-01.png" alt="" class="img-fluid" id="hero-img">
+
+          <div class="col-xl-7 col-lg-6 col-md-12 text-center">
+            <img
+              src="assets/images/icon-w-thumbs-up-01.png"
+              alt="Confirmation illustration showing positive feedback"
+              class="img-fluid"
+              id="hero-img"
+            >
           </div>
+
+        </div>
       </div>
-  </div>
-</main>
+    </section>
+
+  </main>
+
+  <!-- Bootstrap JS -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"
+  ></script>
+
 </body>
 </html>
